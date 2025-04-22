@@ -40,7 +40,7 @@ http://localhost:8080
 
 4. Check Cron job logs
 ```bash
-docker exec -it php-vanilla-docker_php_1 cat /var/www/html/log.txt
+docker exec -it vanilla_php_1 cat /var/www/html/log.txt
 ```
 
 5. Stop the container
