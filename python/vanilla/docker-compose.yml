@@ -1,1 +1,16 @@
+version: '3.8'
 
+services:
+  python:
+    build:
+      context: .
+    container_name: python-vanilla-cron
+    volumes:
+      - ./app:/usr/src/app
+    command: ["sh", "-c", "cron && poetry run python app/main.py"]
+    networks:
+      - python_network
+
+networks:
+  python_network:
+    driver: bridge
