@@ -29,7 +29,21 @@ Docker and Docker Compose must be installed.
 git clone https://github.com/alechries/docker-setup-samples/php/vanilla.git
 cd vanilla
 ```
-2. Clone the project
+2. Build and start the Docker container
 ```bash
 docker-compose up --build -d
+```
+3. Open PHP in the browser
+```bash 
+http://localhost:8080
+```
+
+4. Check Cron job logs
+```bash
+docker exec -it php-vanilla-docker_php_1 cat /var/www/html/log.txt
+```
+
+5. Stop the container
+```bash
+docker-compose down
 ```
