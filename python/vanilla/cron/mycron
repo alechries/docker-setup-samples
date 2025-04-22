@@ -1,1 +1,4 @@
+# cron/mycron
 
+# Alle 5 Minuten das Python-Skript ausführen
+*/5 * * * * root cd /usr/src/app && poetry run python app/main.py >> /var/log/cron.log 2>&1
