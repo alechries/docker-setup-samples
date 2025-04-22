@@ -1,8 +1,8 @@
-# Vanilla PHP + Docker Example
+# Laravel + Docker Example
 
 ## 🚀 Overview
 
-A simple example of a **Vanilla PHP** application containerized with Docker and Docker Compose, using an Apache web server.
+A simple example of a **Laravel** application containerized with Docker and Docker Compose, using an Apache web server.
 
 ## 📁 Project Structure
 
