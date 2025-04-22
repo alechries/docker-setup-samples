@@ -26,8 +26,8 @@ Docker and Docker Compose must be installed.
 
 1. Clone the project
 ```bash
-git clone https://github.com/alechries/docker-setup-samples/php/vanilla.git
-cd vanilla
+git clone https://github.com/alechries/docker-setup-samples.git
+cd php/vanilla
 ```
 2. Build and start the Docker container
 ```bash
